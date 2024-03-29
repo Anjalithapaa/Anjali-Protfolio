@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+        <div class="logo"> <a href="index.html" > ANJALI</a> </div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="index.html">About</a></li>
+            <li><a href="index.html">Experience</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      
+      
+      
+      <nav id="hamburger-nav">
+        <div class="logo"> ANJALI </div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="index.html" onclick="toggleMenu()">About</a></li>
+            <li><a href="index.html" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="projects.html" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+      </nav>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/dipika.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Dipika's Artistry</h2>
+              <div class="btn-container">
+                
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://artbydipika-dg.web.app/'"
+                >
+                  View Project
+                </button>
+              </div>
+              <p>
+                ●Built a functional e-commerce website using React.js, HTML, CSS, and Bootstrap<br>
+                ●Applied advanced front-end techniques, including React hooks and CSS flexbox, to enhance user experience and interactivity
+
+              </p>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/Thrift.png"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Selu Thrift Store</h2> 
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/Anjalithapaa'"
+                >
+                  Github Link
+                </button> 
+              </div>
+              <p>
+                ●Developed a fully functional e-commerce web application utilizing .NET Core for API endpoints, .Net with C# for backend<br>
+                ●Employed SQL Server for data storage, and implemented a dynamic frontend with React, TypeScript, and Man-tine.
+
+              </p>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/Design Image.png"
+                  alt="Project 3"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">CS Course Projects </h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/Anjalithapaa'"
+                >
+                  Github Link
+                </button>
+                </div>
+
+                <p>
+                    ● Applied Python, JavaScript, Java, and Node.js extensively in various course assignments, demonstrating proficiency across multiple programming paradigms and domains
+                </p>
+            
+            </div>
+          </div>
+        </div>        
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='#about'"
+        />
+             
+        <footer>
+            <!---- <nav>
+               <div class="nav-links-container">
+                 <ul class="nav-links">
+                   <li><a href="#about">About</a></li>
+                   <li><a href="#experience">Experience</a></li>
+                   <li><a href="#projects">Projects</a></li>
+                   <li><a href="#contact">Contact</a></li>
+                 </ul>
+               </div>
+             </nav>-->
+             <p> Built with a lot of love and a little bit of JavaScript &#169; If you want something you never had, you must be willing to do something you've never done. </p>
+           </footer>
+        </section>
+        <script src="script.js"></script> 
+  </body>
+  </html>
