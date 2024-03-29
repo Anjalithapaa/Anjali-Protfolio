@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+
+
+
+    <nav id="desktop-nav">
+      <div class="logo"> <a href="index.html" > ANJALI</a> </div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="index.html">About</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    
+    
+    <nav id="hamburger-nav">
+      <div class="logo"> ANJALI </div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="index.html" onclick="toggleMenu()">About</a></li>
+          <li><a href="experience.html" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="projects.html" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav><section id="about">
+    <p class="section__text__p11">Get To Know More</p>
+    <h1 class="title1">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img
+          src="./assets/about-pic.png"
+          alt="Profile picture"
+          class="about-pic"
+        />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img
+              src="./assets/experience.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <h3>Experience</h3>
+            <p>●Student Web Developer @ SELU <br/>(August 2023 -Present) <br />
+              ●Computer Science Tutor @SELU <br/>
+              ●Mathematics Course Tutor @ SELU <br/>
+              ●Vice President- International Student Union @ SELU
+              ●Member- WOmen In Technology @ SELU
+            </p>
+          </div>
+          <div class="details-container">
+            <img
+              src="./assets/education.png"
+              alt="Education icon"
+              class="icon"
+            />
+            <h3>Education</h3>
+            <p>B.Sc. Computer Science<br />Southeastern Louisiana University <br/>
+                ●Presedent's List Award 2023 </li> <br />
+                ●Student Organization Excellence Award     </p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            Hello! <br>
+            <br>
+            I am a computer science student and a student web developer at Southeastern Louisiana University, where I have co-developed multiple webpages for clients using various programming languages and frameworks, such as JavaScript, HTML, .NET, SQL Server, CSS, React and Firebase. I have also collaborated with the professor in authoring, reviewing, and maintaining product and project documentation, and edited existing codes to enhance accessibility and improve browser compatibility and mobile responsiveness.<br>
+<br>
+            In addition, I have tutored students in computer science, mathematics, providing guidance, feedback, and problem-solving strategies. I have planned and monitored weekly classes, worked one-on-one and in groups, and adapted teaching-learning methods to produce better results. I have also earned a certificate in business analytics from Harvard Business School Online, and received multiple honors, such as SGA honors Scholarship, the President's List, and the Student Government Association xcellence Scholarship. I am passionate about learning and exploring new technologies, and I value collaboration, innovation, and excellence.<br>
+<br>
+          Only Love!<br>
+          Anjali Thapa
+        </div>
+      </div>
+    </div>
+   <!----- <img
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='#experience'"
+    />-->
+  </section>
+  <footer>
+           
+    <p> Built with a lot of love and a little bit of JavaScript &#169; If you want something you never had, you must be willing to do something you've never done. </p>
+  </footer>
+</section>
+  
+  <script src="script.js"></script> 
+  </body>
+  </html>
