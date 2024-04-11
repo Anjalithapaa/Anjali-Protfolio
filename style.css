@@ -292,10 +292,11 @@ section {
   text-align: initial;
 }
 
-.about-containers,
-.about-details-container {
+.about-containers
+ {
   display: flex;
-  padding-bottom: 2rem;
+  padding: 2rem;
+  
 }
 
 .about-pic {
@@ -461,7 +462,7 @@ article .icon {
 
 footer {
   justify-content: space-around;
-  padding-top: 5%;
+  padding-top: 10%;
     height: 10vh;
   }
   footer p{
